@@ -27,9 +27,9 @@ function App() {
         <Contact />
         <Footer />
       
-        <div class="loading">
+        <div className="loading">
             <div id="preloder">
-                <div class="loader"></div>
+                <div className="loader"></div>
             </div>
         </div>
     </div>
