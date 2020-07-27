@@ -5,7 +5,7 @@ export const Navbar = () => (
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
                 <a className="navbar-brand" href="#">
-                    <img src="../../img/59.png" alt=""></img>
+                    <img src={require("../../img/59.png")} alt="image not found"></img>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="">

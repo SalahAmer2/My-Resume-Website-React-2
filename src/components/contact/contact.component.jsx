@@ -50,7 +50,7 @@ export const Contact = () => (
                             </svg>
                             <div className="cont">
                                 <h6>Phone</h6>
-                                <p>0201115343143 </p>
+                                <p>+201069651732</p>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ export const Contact = () => (
                             </svg>
                             <div className="cont">
                                 <h6>Email</h6>
-                                <p>amressa201611@gmail.com </p>
+                                <p>salahayman2@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ export const Contact = () => (
                             </svg>
                             <div className="cont">
                                 <h6>Address</h6>
-                                <p>Zagazig, Egypt </p>
+                                <p>Asyut, Egypt </p>
                             </div>
                         </div>
                     </div>

@@ -4,17 +4,17 @@ export const About = () => (
     <div className="about">
         <div className="row">
             <div className="col0-lg-3 col-xs-12 wow fadeInLeftBig" data-wow-duration="1s" data-wow-offset="150">
-                <img src="../../img/2.jpeg" alt=""></img>
+                <img src={require("../../img/2.jpeg")} alt="image not found"></img>
             </div>
             <div className="col0-lg-9 col-xs-12  wow slideInRight" data-wow-duration="1s" data-wow-offset="150">
-                <h1>I Am Front End Web Developer</h1>
+                <h1>Front End Focused With Full Stack Experience</h1>
                 <p>
-                    I am <strong>Amr Mohamed</strong> I am a talented Freelance Front End Web Developer From Egypt.
-                      <br />I Design websites. I am study Computer Science.
-                      <br /> Interested in trying to keep up with modern designs, and taking care of features,
+                    I am <strong>Salah Amer</strong> I'm a committed, responsible, driven web developer, who gets the job done and gives his client exactly what he needs promptly.
+                      <br />I have experience in both Front End and Back End development but I'm focused on Front End.
+                      <br /> I am interested in trying to keep up with modern designs, and taking care of features,
                       <br /> while maintaining ease of use,
-                      <br /> and maximizing the benefit of simplicity and elegance,
-                      <br /> are the controls that we commit to in all my projects
+                      <br /> and maximizing the benefit of simplicity and elegance.
+                      <br /> That is what I commit to in all my projects.
                   </p>
                 <div className="social-icon">
                     <a href="https://www.facebook.com/AmrMoEissa/" target="_blank"><i className="fa fir fa-facebook"></i></a>
