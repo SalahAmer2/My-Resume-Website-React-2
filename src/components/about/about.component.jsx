@@ -4,7 +4,7 @@ export const About = () => (
     <div class="about">
         <div class="row">
             <div class="col0-lg-3 col-xs-12 wow fadeInLeftBig" data-wow-duration="1s" data-wow-offset="150">
-                <img src="img/2.jpeg" alt=""></img>
+                <img src="../../img/2.jpeg" alt=""></img>
             </div>
             <div class="col0-lg-9 col-xs-12  wow slideInRight" data-wow-duration="1s" data-wow-offset="150">
                 <h1>I Am Front End Web Developer</h1>
