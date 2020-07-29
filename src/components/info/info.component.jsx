@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./info.styles.css";
+
 export const Info = () => (
     <div className="information">
         <div className="overlay">
-            <div className="container">
+            <div className="container text-align-left">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-xs-12 wow bounceInLeft" data-wow-duration="2s" data-wow-offset="150" data-wow-duration="1.5s">
                         <div className="education">

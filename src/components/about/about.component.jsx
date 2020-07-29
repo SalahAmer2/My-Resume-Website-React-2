@@ -1,12 +1,14 @@
 import React from "react";
 
+import "./about.styles.css";
+
 export const About = () => (
     <div className="about">
         <div className="row">
             <div className="col0-lg-3 col-xs-12 wow fadeInLeftBig" data-wow-duration="1s" data-wow-offset="150">
-                <img src={require("../../img/2.jpeg")} alt="image not found"></img>
+                <img src={require("../../img/myPhoto.jpg")} alt="image not found" className="myPhoto"></img>
             </div>
-            <div className="col0-lg-9 col-xs-12  wow slideInRight" data-wow-duration="1s" data-wow-offset="150">
+            <div className="col0-lg-9 col-xs-12  wow slideInRight floatLeft" data-wow-duration="1s" data-wow-offset="150">
                 <h1>Front End Focused With Full Stack Experience</h1>
                 <p>
                     I am <strong>Salah Amer</strong> I'm a committed, responsible, driven web developer, who gets the job done and gives his client exactly what he needs promptly.
