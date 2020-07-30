@@ -33,7 +33,7 @@ export const Info = () => (
                             <div className="underline"></div>
                             <div className="pro">
                                 <div className="html">
-                                    <h6>HTML/HTML5 <span>93%</span></h6>
+                                    <h6>HTML/HTML5 <span>94%</span></h6>
                                     <div className="eq-html">
                                         <div className="h"></div>
                                     </div>
@@ -51,7 +51,7 @@ export const Info = () => (
                                     </div>
                                 </div>
                                 <div className="javascript">
-                                    <h6>JAVASCRIPT <span>80%</span></h6>
+                                    <h6>JAVASCRIPT <span>83%</span></h6>
                                     <div className="eq-javascript">
                                         <div className="ja"></div>
                                     </div>

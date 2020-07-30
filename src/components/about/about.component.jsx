@@ -11,8 +11,9 @@ export const About = () => (
             <div className="col0-lg-9 col-xs-12  wow slideInRight text-align-left" data-wow-duration="1s" data-wow-offset="150">
                 <h1>Front End Focused With Full Stack Experience</h1>
                 <p>
-                    I am <strong>Salah Amer</strong> I'm a committed, responsible, driven web developer, who gets the job done and gives his client exactly what he needs promptly.
-                      <br />I have experience in both Front End and Back End development but I'm focused on Front End.
+                    I am <strong>Salah Amer</strong> I'm a committed, responsible, driven web developer, 
+                      <br /> who gets the job done and gives his client exactly what he needs promptly.
+                      <br /> I have experience in both Front End and Back End development but I'm focused on Front End.
                       <br /> I am interested in trying to keep up with modern designs, and taking care of features,
                       <br /> while maintaining ease of use,
                       <br /> and maximizing the benefit of simplicity and elegance.
