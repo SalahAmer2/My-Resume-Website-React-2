@@ -1,9 +1,11 @@
 import React from "react";
 
+import "./portfolio.styles.css"
+
 export const Portfolio = () => (
-    <div className="protofolio">
+    <div className="portfolio">
         <div className="container">
-            <h1>My protofolio</h1>
+            <h1>My portfolio</h1>
             <div className="bottom">
                 <div className="dark"></div>
             </div>
@@ -14,26 +16,22 @@ export const Portfolio = () => (
                     <li className="filter" data-filter=".NOT_Responsive">NOT Responsive</li>
                 </ul>
             </div>
-
+            {/* Live websites will have "View Project Live" as the text of the button while the others won't have a button, you'll just click play */}
             <div className="row wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
                 <div className="col-lg-4 col-md-6 col-xs-12 mix NOT_Responsive">
                     <div className="item">
-                        <img src={require("../../img/project1.png")} alt="image not found"></img>
-                        <div className="over text-center">
-                            <a href="https://github.com/amr-mohamed1/classic-project" target="_blank">
-                                <button>View Project</button>
-                            </a>
-                            <a href="../../img/screencapture-file-E-EDU-HTML-Jquery-project-no-2-classic-temp-index-html-2020-06-25-12_59_29.png" target="_blank">
-                                <i className="far fa-eye"></i>
-                            </a>
-                        </div>
+                        <img src={require("../../img/project1.png")} alt=""></img>
+                            <div class="over text-center">
+                                <a href="https://github.com/amr-mohamed1/classic-project" target="_blank"><button>View Project</button></a>
+                                <a href="img/screencapture-file-E-EDU-HTML-Jquery-project-no-2-classic-temp-index-html-2020-06-25-12_59_29.png" target="_blank"><i class="far fa-eye"></i></a>
+                            </div>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-xs-12 mix Responsive">
                     <div className="item">
                         <img src={require("../../img/project4.png")} alt="image not found"></img>
                         <div className="over text-center">
-                            <a href="https://github.com/amr-mohamed1/responsive-project" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/amr-mohamed1/responsive-project" target="_blank"><button>View Project Live</button></a>
                             <a href="../../img/screencapture-file-E-EDU-HTML-Bootstrap-elzer-project-index-html-2020-06-30-12_22_33.png" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
@@ -42,7 +40,7 @@ export const Portfolio = () => (
                     <div className="item">
                         <img src={require("../../img/project3.png")} alt="image not found"></img>
                         <div className="over text-center">
-                            <a href="https://amr-mohamed1.github.io/hosting-website/" target="_blank"><button>View Project</button></a>
+                            <a href="https://amr-mohamed1.github.io/hosting-website/" target="_blank"><button>View Project Live</button></a>
                             <a href="../../img/screencapture-file-E-EDU-HTML-Bootstrap-hosting-website-index-html-2020-06-25-12_57_09.png" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
@@ -53,7 +51,7 @@ export const Portfolio = () => (
                     <div className="item">
                         <img src={require("../../img/project2.png")} alt="image not found"></img>
                         <div className="over text-center">
-                            <a href="https://github.com/amr-mohamed1/Tanatos-project" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/amr-mohamed1/Tanatos-project" target="_blank"><button>View Project Live</button></a>
                             <a href="../../img/screencapture-file-E-EDU-HTML-Jquery-project-no-1-Tanatos-project-index-html-2020-06-25-12_58_43.png" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
@@ -62,7 +60,7 @@ export const Portfolio = () => (
                     <div className="item text-center">
                         <img src={require("../../img/project5.png")} alt="image not found"></img>
                         <div className="over">
-                            <a href="https://github.com/amr-mohamed1/simple-project-with-html-and-css" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/amr-mohamed1/simple-project-with-html-and-css" target="_blank"><button>View Project Live</button></a>
                             <a href="../../img/screencapture-file-E-EDU-HTML-retech-project-1-index-html-2020-06-30-12_24_02.png" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
@@ -71,7 +69,7 @@ export const Portfolio = () => (
                     <div className="item text-center">
                         <img src={require("../../img/project6.png")} alt="image not found"></img>
                         <div className="over">
-                            <a href="https://amr-mohamed1.github.io/hosting-website/" target="_blank"><button>View Project</button></a>
+                            <a href="https://amr-mohamed1.github.io/hosting-website/" target="_blank"><button>View Project Live</button></a>
                             <a href="../../img/screencapture-file-E-EDU-HTML-forms-form1-vortex-html-2020-06-30-12_25_32.png" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>

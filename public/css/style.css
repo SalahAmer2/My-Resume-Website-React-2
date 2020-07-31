@@ -668,13 +668,13 @@ body {
 /*                                        end statistics                                                         */
 
 
-/*                                        start protofolio                                                         */
+/*                                        start portfolio                                                         */
 
-.protofolio {
+.portfolio {
     background-color: #131414;
 }
 
-.protofolio h1 {
+.portfolio h1 {
     text-align: center;
     padding-top: 50px;
     color: #eee;
@@ -683,7 +683,7 @@ body {
     font-weight: 400;
 }
 
-.protofolio .bottom {
+.portfolio .bottom {
     margin: auto;
     height: 3px;
     background-color: #443f3f;
@@ -692,23 +692,23 @@ body {
     margin-bottom: 80px;
 }
 
-.protofolio .bottom .dark {
+.portfolio .bottom .dark {
     margin: auto;
     width: 80px;
     background-color: #C49B66;
     height: 100%;
 }
 
-.protofolio .list {
+.portfolio .list {
     margin: 50px auto;
 }
 
-.protofolio .list ul {
+.portfolio .list ul {
     list-style: none;
     min-width: 350px;
 }
 
-.protofolio .list li {
+.portfolio .list li {
     display: inline-block;
     margin: 0 10px;
     border: 1px solid #C49B66;
@@ -721,26 +721,26 @@ body {
     border-radius: 3px
 }
 
-.protofolio .list li:hover {
+.portfolio .list li:hover {
     color: #eee;
     background-color: #C49B66;
     border: 1px solid #C49B66;
 }
 
-.protofolio .list .active {
+.portfolio .list .active {
     color: #eee;
     background-color: #C49B66;
     border: 1px solid #C49B66;
 }
 
-.protofolio img {
+.portfolio img {
     max-height: 100%;
     max-width: 100%;
     margin-bottom: 30px;
     cursor: pointer;
 }
 
-.protofolio .over {
+.portfolio .over {
     position: absolute;
     width: 100%;
     height: 86%;
@@ -754,16 +754,16 @@ body {
     transition: all .5s ease-in-out;
 }
 
-.protofolio .item:hover .over {
+.portfolio .item:hover .over {
     display: block;
 }
 
-.protofolio .item {
+.portfolio .item {
     overflow: hidden;
     position: relative
 }
 
-.protofolio .item .over button {
+.portfolio .item .over button {
     background-color: transparent;
     border: 1px solid #ccc;
     color: #eee;
@@ -775,7 +775,7 @@ body {
     margin-top: 68.5px;
 }
 
-.protofolio .item .over button:hover {
+.portfolio .item .over button:hover {
     background-color: #fff;
     border: 1px solid #ccc;
     color: #C49B66
@@ -790,7 +790,7 @@ body {
 }
 
 
-/*                                        end protofolio                                                         */
+/*                                        end portfolio                                                         */
 
 
 /*                                            start testimonial:                                                                     */

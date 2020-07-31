@@ -92,12 +92,12 @@ $(window).scroll(function() {
         }, 2000);
     });
 
-    // scroll to protofolio
+    // scroll to portfolio
     $(".navbar .nav-portfolio").click(function () {
 
         $("html, body").animate({
 
-            scrollTop: $(".protofolio").offset().top - 20
+            scrollTop: $(".portfolio").offset().top - 20
 
         }, 2000);
     });
@@ -151,7 +151,7 @@ $(window).scroll(function() {
             $(".navbar .nav-home").addClass("active").siblings().removeClass("active");
         }
 
-        // scroll to protofolio
+        // scroll to portfolio
 
         if ($(window).scrollTop() >= 2240 && $(window).scrollTop() <=2918) {
 
@@ -190,9 +190,9 @@ $(window).scroll(function() {
         }
     });
 
-    // protofolio
+    // portfolio
 
-    $(".protofolio .list li").click(function () {
+    $(".portfolio .list li").click(function () {
         $(this).addClass("active").siblings().removeClass("active");
     });
 
@@ -215,7 +215,7 @@ $(window).scroll(function() {
     });
 
     // mix it up
-    var mixer = mixitup(".protofolio");
+    var mixer = mixitup(".portfolio");
 
 
 });
