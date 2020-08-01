@@ -21,9 +21,9 @@ export const Portfolio = () => (
                 <div className="col-lg-4 col-md-6 col-xs-12 mix NOT_Responsive">
                     <div className="item">
                         <img src={require("../../img/project1.png")} alt=""></img>
-                        <div class="over text-center">
+                        <div className="over text-center">
                             <a href="https://github.com/amr-mohamed1/classic-project" target="_blank"><button>View Project</button></a>
-                            <a href="img/screencapture-file-E-EDU-HTML-Jquery-project-no-2-classic-temp-index-html-2020-06-25-12_59_29.png" target="_blank"><i class="far fa-eye"></i></a>
+                            <a href="img/screencapture-file-E-EDU-HTML-Jquery-project-no-2-classic-temp-index-html-2020-06-25-12_59_29.png" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
