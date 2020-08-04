@@ -1,11 +1,13 @@
 import React from "react";
 
+import ReactLogo from "../../img/react-logo.png";
+
 export const Navbar = () => (
     <div>
         <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container">
                 <a className="navbar-brand" href="#">
-                    <img src={require("../../img/react-logo.png")} alt="image not found"></img>
+                    <img src={ReactLogo} alt="image not found"></img>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="">

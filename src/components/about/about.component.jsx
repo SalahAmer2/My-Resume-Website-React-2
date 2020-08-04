@@ -1,12 +1,14 @@
 import React from "react";
 
+import MyPhoto from "../../img/myPhoto.jpg";
+
 import "./about.styles.css";
 
 export const About = () => (
     <div className="about">
         <div className="row">
             <div className="col0-lg-3 col-xs-12 wow fadeInLeftBig" data-wow-duration="1s" data-wow-offset="150">
-                <img src={require("../../img/myPhoto.jpg")} alt="image not found" className="myPhoto"></img>
+                <img src={MyPhoto} alt="image not found" className="myPhoto"></img>
             </div>
             <div className="col0-lg-9 col-xs-12  wow slideInRight text-align-left" data-wow-duration="1s" data-wow-offset="150">
                 <h1>Front End Focused With Full Stack Experience</h1>
