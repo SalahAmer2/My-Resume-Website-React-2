@@ -1,0 +1,9 @@
+.row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
