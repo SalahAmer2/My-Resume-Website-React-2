@@ -22,10 +22,10 @@ export const About = () => (
                       <br /> That is what I commit to in all my projects.
                   </p>
                 <div className="social-icon">
-                    <a href="https://www.facebook.com/AmrMoEissa/" target="_blank"><i className="fa fir fa-facebook"></i></a>
-                    <a href="https://twitter.com/AmrMohamedEssa1?s=09" target="_blank"><i className="fa sec fa-twitter"></i></a>
-                    <a href="https://www.linkedin.com/in/amr-mohamed-538a47199" target="_blank"><i className="fab thi fa-linkedin"></i></a>
-                    <a href="https://wa.me/0201115343143" target="_blank"><i className="fab fou fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/salah.ayman.9406/" target="_blank"><i className="fa fir fa-facebook"></i></a>
+                    {/* <a href="https://twitter.com/AmrMohamedEssa1?s=09" target="_blank"><i className="fa sec fa-twitter"></i></a> */}
+                    {/* <a href="https://www.linkedin.com/in/amr-mohamed-538a47199" target="_blank"><i className="fab thi fa-linkedin"></i></a> */}
+                    <a href="https://wa.me/0201069651732" target="_blank"><i className="fab fou fa-whatsapp"></i></a>
                 </div>
                 <button>HIRE ME</button>
             </div>

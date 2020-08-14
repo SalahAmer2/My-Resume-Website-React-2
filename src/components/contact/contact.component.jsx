@@ -8,7 +8,7 @@ export const Contact = () => (
                 <div className="bottom">
                     <div className="dark"></div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                     <div className="col-md-6">
                         <div className="form-group">
                             <input type="text" name="name" placeholder="Name *" required="required"></input>
@@ -40,7 +40,7 @@ export const Contact = () => (
                         </div>
                     </div>
                 </div>
-                <button type="submit">Send Message</button>
+                <button type="submit">Send Message</button> */}
                 <div className="row">
                     <div className="col-md-4">
                         <div className="item">
