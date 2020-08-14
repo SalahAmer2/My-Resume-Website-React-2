@@ -7,7 +7,7 @@ import {Info} from "./components/info/info.component";
 import {Services} from "./components/services/services.component";
 import {Statistics} from "./components/statistics/statistics.component";
 import {Portfolio} from "./components/portfolio/portfolio.component";
-import {Testimonial} from "./components/testimonial/testimonial.component";
+import {Certificates} from "./components/certificates/certificates.component";
 import {Contact} from "./components/contact/contact.component";
 import {Footer} from "./components/footer/footer.component";
 import './App.css';
@@ -23,7 +23,7 @@ function App() {
         <Services />
         <Statistics />
         <Portfolio />
-        <Testimonial />
+        <Certificates />
         <Contact />
         <Footer />
       

@@ -30,7 +30,7 @@ export const Navbar = () => (
                             <a className="nav-link" href="#">Portfolio</a>
                         </li>
                         <li className="nav-item nav-testimonials">
-                            <a className="nav-link" href="#">Testimonials</a>
+                            <a className="nav-link" href="#">Certificates</a>
                         </li>
                         <li className="nav-item nav-contact">
                             <a className="nav-link" href="#">Contact</a>
