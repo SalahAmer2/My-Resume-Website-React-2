@@ -27,7 +27,7 @@ export const About = () => (
                     {/* <a href="https://www.linkedin.com/in/amr-mohamed-538a47199" target="_blank"><i className="fab thi fa-linkedin"></i></a> */}
                     <a href="https://wa.me/0201069651732" target="_blank"><i className="fab fou fa-whatsapp"></i></a>
                 </div>
-                <button>HIRE ME</button>
+                <button>CONTACT ME</button>
             </div>
         </div>
     </div>
