@@ -439,7 +439,8 @@ body {
 .information .skills .css h6,
 .information .skills .bootstrap h6,
 .information .skills .javascript h6,
-.information .skills .jquery h6 {
+.information .skills .jquery h6,
+.information .skills .react h6 {
     color: #eee;
     font-size: 15px;
     font-weight: normal;
@@ -451,7 +452,8 @@ body {
 .information .skills .css h6 span,
 .information .skills .javascript h6 span,
 .information .skills .jquery h6 span,
-.information .skills .bootstrap h6 span {
+.information .skills .bootstrap h6 span,
+.information .skills .react h6 span {
     float: right;
     font-size: 12px;
     font-weight: normal
@@ -534,6 +536,22 @@ body {
 .information .skills .jquery .eq-jquery .jq {
     height: 100%;
     width: 85%;
+    background-color: #C49B66;
+}
+
+
+/*            react     */
+
+.information .skills .react .eq-react {
+    height: 3px;
+    background-color: #443f3f;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.information .skills .react .eq-react .re {
+    height: 100%;
+    width: 90%;
     background-color: #C49B66;
 }
 

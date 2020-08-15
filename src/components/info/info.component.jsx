@@ -62,6 +62,12 @@ export const Info = () => (
                                         <div className="jq"></div>
                                     </div>
                                 </div>
+                                <div className="react">
+                                    <h6>REACT <span>90%</span></h6>
+                                    <div className="eq-react">
+                                        <div className="re"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
