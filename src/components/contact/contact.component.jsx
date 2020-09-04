@@ -1,5 +1,7 @@
 import React from "react";
 
+import GitHubIcon from "../../img/GitHub-Mark-32px-golden.png";
+
 export const Contact = () => (
     <div className="contact">
         <div className="overlay">
@@ -62,6 +64,18 @@ export const Contact = () => (
                             <div className="cont">
                                 <h6>Email</h6>
                                 <p>salahayman2@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4">
+                        <div className="item">
+                            {/* <svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fillRule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                            </svg> */}
+                            <img src={GitHubIcon} alt="" style={{ float: "left"}}></img>
+                            <div className="cont">
+                                <h6>GitHub</h6>
+                                <p><a href="https://github.com/SalahAmer2" style={{ textDecoration: "none", color: "inherit"}}>https://github.com/SalahAmer2</a></p>
                             </div>
                         </div>
                     </div>
