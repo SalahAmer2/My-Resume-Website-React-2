@@ -63,7 +63,7 @@ export const Contact = () => (
                             </svg>
                             <div className="cont">
                                 <h6>Email</h6>
-                                <p><a href="mailto:salahayman2@gmail.com" style={{ textDecoration: "none", color: "inherit" }}>salahayman2@gmail.com</a></p>
+                                <p><a href="mailto:salahayman2@gmail.com" style={{ textDecoration: "none", color: "inherit" }} target="_blank">salahayman2@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ export const Contact = () => (
                             <img src={GitHubIcon} alt="" style={{ float: "left"}}></img>
                             <div className="cont">
                                 <h6>GitHub</h6>
-                                <p><a href="https://github.com/SalahAmer2" style={{ textDecoration: "none", color: "inherit"}}>https://github.com/SalahAmer2</a></p>
+                                <p><a href="https://github.com/SalahAmer2" style={{ textDecoration: "none", color: "inherit" }} target="_blank">https://github.com/SalahAmer2</a></p>
                             </div>
                         </div>
                     </div>
