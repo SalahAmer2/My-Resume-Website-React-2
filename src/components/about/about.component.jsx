@@ -1,6 +1,6 @@
 import React from "react";
 
-import MyPhoto from "../../img/myPhoto.jpg";
+import MyPhoto from "../../img/My Picture.jpg";
 
 import "./about.styles.css";
 
