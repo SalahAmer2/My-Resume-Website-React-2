@@ -63,7 +63,7 @@ export const Contact = () => (
                             </svg>
                             <div className="cont">
                                 <h6>Email</h6>
-                                <p>salahayman2@gmail.com</p>
+                                <p><a href="mailto:salahayman2@gmail.com" style={{ textDecoration: "none", color: "inherit" }}>salahayman2@gmail.com</a></p>
                             </div>
                         </div>
                     </div>
