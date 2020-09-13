@@ -45,13 +45,13 @@ export const Info = () => (
                                     </div>
                                 </div>
                                 <div className="bootstrap">
-                                    <h6>BOOTSTRAP <span>90%</span></h6>
+                                    <h6>BOOTSTRAP <span>83%</span></h6>
                                     <div className="eq-bootstrap">
                                         <div className="b"></div>
                                     </div>
                                 </div>
                                 <div className="javascript">
-                                    <h6>JAVASCRIPT <span>83%</span></h6>
+                                    <h6>JAVASCRIPT <span>90%</span></h6>
                                     <div className="eq-javascript">
                                         <div className="ja"></div>
                                     </div>
