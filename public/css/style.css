@@ -440,7 +440,8 @@ body {
 .information .skills .bootstrap h6,
 .information .skills .javascript h6,
 .information .skills .jquery h6,
-.information .skills .react h6 {
+.information .skills .react h6,
+.information .skills .redux h6 {
     color: #eee;
     font-size: 15px;
     font-weight: normal;
@@ -453,7 +454,8 @@ body {
 .information .skills .javascript h6 span,
 .information .skills .jquery h6 span,
 .information .skills .bootstrap h6 span,
-.information .skills .react h6 span {
+.information .skills .react h6 span,
+.information .skills .redux h6 span {
     float: right;
     font-size: 12px;
     font-weight: normal
