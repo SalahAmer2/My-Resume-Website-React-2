@@ -68,6 +68,12 @@ export const Info = () => (
                                         <div className="re"></div>
                                     </div>
                                 </div>
+                                <div className="redux">
+                                    <h6>REDUX <span>87%</span></h6>
+                                    <div className="eq-redux">
+                                        <div className="red"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

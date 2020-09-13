@@ -561,6 +561,22 @@ body {
 }
 
 
+/*            redux     */
+
+.information .skills .redux .eq-redux {
+    height: 3px;
+    background-color: #443f3f;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.information .skills .redux .eq-redux .red {
+    height: 100%;
+    width: 87%;
+    background-color: #C49B66;
+}
+
+
 /*                                        services                                                         */
 
 .services {
