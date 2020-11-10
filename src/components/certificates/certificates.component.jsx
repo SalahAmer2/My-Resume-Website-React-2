@@ -58,7 +58,7 @@ export const Certificates = () => (
                                 <img className='certificate' src={uda_fullstack_participation_certificate} alt="image not found" />
                             </a>
                             <br />
-                            <span>Certificate of Participation | Front End Development Track</span>
+                            <span>Certificate of Participation | Full Stack Development Track</span>
                         </div>
                     </div>
                 </div>
