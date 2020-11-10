@@ -56,7 +56,7 @@ export const Portfolio = () => (
                 </div>
             </div>
             <div className="row wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
-                <div className="col-lg-4 col-md-6 col-xs-12 mix NOT_Live">
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live">
                     <div className="item">
                         <img src={TravelApp} alt="image not found"></img>
                         <div className="over text-center">
