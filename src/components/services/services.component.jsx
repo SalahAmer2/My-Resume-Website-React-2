@@ -10,7 +10,7 @@ export const Services = () => (
             <div className="row wow bounceInUp" data-wow-offset="150" data-wow-duration="1s" data-wow-duration="1s">
                 <div className="col-lg-4 web">
                     <i className="fas fa-laptop"></i>
-                    <h3>Web Design</h3>
+                    <h3>React/Redux</h3>
                 </div>
                 <div className="col-lg-4 responsive">
                     <i className="fas fa-crop-alt"></i>

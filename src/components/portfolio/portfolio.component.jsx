@@ -3,8 +3,9 @@ import React from "react";
 import CrwnClothing from "../../img/crwn-clothing-site.png";
 import BeActive from "../../img/Be Active.png";
 import PrevResume from "../../img/previous-portfolio-website.png";
+import TravelApp from "../../img/travel-app-react-site.png";
 
-import TravelApp from "../../videos/Travel App.mp4";
+// import TravelApp from "../../videos/Travel App.mp4";
 import Auth_Secrets_with_Database from "../../videos/Auth_Secrets.mp4";
 import Blog_with_Database from "../../videos/Blog Website with Database.mp4";
 
@@ -22,6 +23,7 @@ export const Portfolio = () => (
                     <li className="upper active" data-filter="all">ALL</li>
                     <li className="filter" data-filter=".Live">Live</li>
                     <li className="filter" data-filter=".NOT_Live">NOT Live</li>
+                    {/* Next Step, add React and Redux as a filter choices here */}
                 </ul>
             </div>
             <div className="row wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
@@ -56,10 +58,11 @@ export const Portfolio = () => (
             <div className="row wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
                 <div className="col-lg-4 col-md-6 col-xs-12 mix NOT_Live">
                     <div className="item">
-                            <video width="500" controls>
-                                <source src={TravelApp} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                        <img src={TravelApp} alt="image not found"></img>
+                        <div className="over text-center">
+                            <a href="https://salah-travel-app-react.netlify.app/" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/SalahAmer2/Travel-App-React" target="_blank"><i className="far fa-eye"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 col-xs-12 mix NOT_Live">

@@ -1,6 +1,6 @@
 import React from "react";
 
-import GitHubIcon from "../../img/GitHub-Mark-32px-golden.png";
+import GitHubLogo from "../../img/github-logo.png";
 
 export const Contact = () => (
     <div className="contact">
@@ -10,39 +10,6 @@ export const Contact = () => (
                 <div className="bottom">
                     <div className="dark"></div>
                 </div>
-                {/* <div className="row">
-                    <div className="col-md-6">
-                        <div className="form-group">
-                            <input type="text" name="name" placeholder="Name *" required="required"></input>
-                        </div>
-                    </div>
-
-                    <div className="col-md-6">
-                        <div className="form-group">
-                            <input type="email" name="email" placeholder="Email *" required="required"></input>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="form-group">
-                            <input type="text" name="phone" placeholder="Phone *"></input>
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <div className="form-group">
-                            <input type="text" name="title" placeholder="Subject *"></input>
-                        </div>
-                    </div>
-                </div>
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="form-group">
-                            <textarea name="message" placeholder="Your Message *" rows="4" required="required"></textarea>
-                        </div>
-                    </div>
-                </div>
-                <button type="submit">Send Message</button> */}
                 <div className="row">
                     <div className="col-md-4">
                         <div className="item">
@@ -69,10 +36,7 @@ export const Contact = () => (
                     </div>
                     <div className="col-md-4">
                         <div className="item">
-                            {/* <svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fillRule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                            </svg> */}
-                            <img src={GitHubIcon} alt="" style={{ float: "left"}}></img>
+                            <img src={GitHubLogo} alt="" style={{ float: "left"}}></img>
                             <div className="cont">
                                 <h6>GitHub</h6>
                                 <p><a href="https://github.com/SalahAmer2" style={{ textDecoration: "none", color: "inherit" }} target="_blank">https://github.com/SalahAmer2</a></p>

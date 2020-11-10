@@ -12,12 +12,8 @@ export const Info = () => (
                             <i className="fas fa-pencil-alt"></i>
                             <h3>Education</h3>
                             <div className="underline"></div>
-                            {/* <div className="university">
-                                <h5>Faculty of Computers and Artificial Intelligence</h5>
-                                <p>Computer Sciences</p>
-                            </div> */}
                             <div className="online">
-                                <h5>The One Million Arab Coders program</h5>
+                                <h5>Udacity Nanodegree Program</h5>
                                 <p>Front End Development</p>
                             </div>
                             <div className="online">
