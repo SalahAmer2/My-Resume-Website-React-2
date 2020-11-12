@@ -25,7 +25,6 @@ export const Portfolio = () => (
                     <li className="filter" data-filter=".NOT_Live">NOT Live</li>
                     <li className="filter" data-filter=".React">React</li>
                     <li className="filter" data-filter=".Redux">Redux</li>
-                    {/* Next Step, add React and Redux as a filter choices here */}
                 </ul>
             </div>
             <div className="row wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
