@@ -23,11 +23,13 @@ export const Portfolio = () => (
                     <li className="upper active" data-filter="all">ALL</li>
                     <li className="filter" data-filter=".Live">Live</li>
                     <li className="filter" data-filter=".NOT_Live">NOT Live</li>
+                    <li className="filter" data-filter=".React">React</li>
+                    <li className="filter" data-filter=".Redux">Redux</li>
                     {/* Next Step, add React and Redux as a filter choices here */}
                 </ul>
             </div>
             <div className="row wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
-                <div className="col-lg-4 col-md-6 col-xs-12 mix Live">
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Redux">
                     <div className="item">
                         <img src={CrwnClothing} alt=""></img>
                         <div className="over text-center">
@@ -36,7 +38,7 @@ export const Portfolio = () => (
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-xs-12 mix Live">
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React">
                     <div className="item">
                         <img src={PrevResume} alt="image not found"></img>
                         <div className="over text-center">
@@ -56,7 +58,7 @@ export const Portfolio = () => (
                 </div>
             </div>
             <div className="row wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
-                <div className="col-lg-4 col-md-6 col-xs-12 mix Live">
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Redux">
                     <div className="item">
                         <img src={TravelApp} alt="image not found"></img>
                         <div className="over text-center">
