@@ -4,7 +4,7 @@ import CrwnClothing from "../../img/crwn-clothing-site.png";
 import BeActive from "../../img/Be Active.png";
 import PrevResume from "../../img/previous-portfolio-website.png";
 import TravelApp from "../../img/travel-app-react-site.png";
-import MERN_Blog from "../../img/mern-stack-blog-website";
+import MERN_Blog from "../../img/mern-stack-blog-website.png";
 
 // import TravelApp from "../../videos/Travel App.mp4";
 import Auth_Secrets_with_Database from "../../videos/Auth_Secrets.mp4";
