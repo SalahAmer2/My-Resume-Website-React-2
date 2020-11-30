@@ -70,6 +70,18 @@ export const Info = () => (
                                         <div className="red"></div>
                                     </div>
                                 </div>
+                                <div className="express">
+                                    <h6>EXPRESS <span>90%</span></h6>
+                                    <div className="eq-express">
+                                        <div className="exp"></div>
+                                    </div>
+                                </div>
+                                <div className="mongoDB">
+                                    <h6>MongoDB <span>87%</span></h6>
+                                    <div className="eq-mongoDB">
+                                        <div className="mongo"></div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

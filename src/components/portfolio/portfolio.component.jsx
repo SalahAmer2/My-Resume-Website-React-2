@@ -4,6 +4,7 @@ import CrwnClothing from "../../img/crwn-clothing-site.png";
 import BeActive from "../../img/Be Active.png";
 import PrevResume from "../../img/previous-portfolio-website.png";
 import TravelApp from "../../img/travel-app-react-site.png";
+import MERN_Blog from "../../img/mern-stack-blog-website";
 
 // import TravelApp from "../../videos/Travel App.mp4";
 import Auth_Secrets_with_Database from "../../videos/Auth_Secrets.mp4";
@@ -25,6 +26,7 @@ export const Portfolio = () => (
                     <li className="filter" data-filter=".NOT_Live">Not Live</li>
                     <li className="filter" data-filter=".React">React</li>
                     <li className="filter" data-filter=".Redux">Redux</li>
+                    <li className="filter" data-filter=".MERN">MERN Stack</li>
                 </ul>
             </div>
             <div className="row wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
@@ -66,20 +68,21 @@ export const Portfolio = () => (
                         </div>
                     </div>
                 </div>
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live MERN React Redux">
+                    <div className="item">
+                        <img src={MERN_Blog} alt="image not found"></img>
+                        <div className="over text-center">
+                            <a href="https://salah-mern-stack-blog.herokuapp.com/" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/SalahAmer2/mern-blog" target="_blank"><i className="far fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-lg-4 col-md-6 col-xs-12 mix NOT_Live">
                     <div className="item text-center">
                         <video width="500" controls>
                             <source src={Auth_Secrets_with_Database} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 col-xs-12 mix NOT_Live">
-                    <div className="item text-center">
-                        <video width="500" controls>
-                            <source src={Blog_with_Database} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
                     </div>
                 </div>
             </div>

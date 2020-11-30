@@ -579,6 +579,38 @@ body {
 }
 
 
+/*            express     */
+
+.information .skills .express .eq-express {
+    height: 3px;
+    background-color: #443f3f;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.information .skills .express .eq-express .exp {
+    height: 100%;
+    width: 90%;
+    background-color: #C49B66;
+}
+
+
+/*            mongoDB     */
+
+.information .skills .mongoDB .eq-mongoDB {
+    height: 3px;
+    background-color: #443f3f;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.information .skills .mongoDB .eq-mongoDB .mongo {
+    height: 100%;
+    width: 87%;
+    background-color: #C49B66;
+}
+
+
 /*                                        services                                                         */
 
 .services {

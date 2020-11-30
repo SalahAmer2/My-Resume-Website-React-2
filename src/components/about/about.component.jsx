@@ -11,11 +11,11 @@ export const About = () => (
                 <img src={MyPhoto} alt="image not found" className="myPhoto"></img>
             </div>
             <div className="col0-lg-9 col-xs-12  wow slideInRight text-align-left" data-wow-duration="1s" data-wow-offset="150">
-                <h1>Front End Focused With Full Stack Experience</h1>
+                <h1>MERN Stack Web Developer</h1>
                 <p>
                     I am <strong>Salah Amer</strong> I'm a committed, responsible, driven web developer, 
                       <br /> who gets the job done and gives his client exactly what he needs promptly.
-                      <br /> I have experience in both Front End and Back End development but I'm focused on Front End.
+                      <br /> I am well-versed in both Front End and Back End development and I'm currently focused on MERN Stack projects.
                       <br /> I am interested in trying to keep up with modern designs, and taking care of features,
                       <br /> while maintaining ease of use,
                       <br /> and maximizing the benefit of simplicity and elegance.
