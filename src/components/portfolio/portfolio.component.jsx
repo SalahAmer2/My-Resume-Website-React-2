@@ -8,7 +8,7 @@ import MERN_Blog from "../../img/mern-stack-blog-website.png";
 
 // import TravelApp from "../../videos/Travel App.mp4";
 import Auth_Secrets_with_Database from "../../videos/Auth_Secrets.mp4";
-import Blog_with_Database from "../../videos/Blog Website with Database.mp4";
+// import Blog_with_Database from "../../videos/Blog Website with Database.mp4";
 
 import "./portfolio.styles.css"
 
