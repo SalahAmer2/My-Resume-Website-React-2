@@ -26,11 +26,12 @@ export const Portfolio = () => (
                     <li className="filter" data-filter=".NOT_Live">Not Live</li>
                     <li className="filter" data-filter=".React">React</li>
                     <li className="filter" data-filter=".Redux">Redux</li>
+                    <li className="filter" data-filter=".Firebase">Firebase</li>
                     <li className="filter" data-filter=".MERN">MERN Stack</li>
                 </ul>
             </div>
             <div className="row wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
-                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Redux">
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Redux Firebase">
                     <div className="item">
                         <img src={CrwnClothing} alt=""></img>
                         <div className="over text-center">
