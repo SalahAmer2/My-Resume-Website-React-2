@@ -102,7 +102,7 @@ $(window).scroll(function() {
         }, 2000);
     });
 
-    // scroll to testimonail
+    // scroll to testimonial
     $(".navbar .nav-testimonials").click(function () {
 
         $("html, body").animate({
@@ -205,7 +205,8 @@ $(window).scroll(function() {
                 $(".loading").fadeOut();
 
             }, 3000);
-        });
+        }
+    );
 
 
     /* count statistic          */

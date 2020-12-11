@@ -27,6 +27,7 @@ function App() {
         <Contact />
         <Footer />
       
+        {/* This below is for the spinning loading icon, it takes 3 seconds */}
         <div className="loading">
             <div id="preloder">
                 <div className="loader"></div>
