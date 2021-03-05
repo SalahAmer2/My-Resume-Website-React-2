@@ -5,6 +5,7 @@ import BeActive from "../../img/Be Active.png";
 import PrevResume from "../../img/previous-portfolio-website.png";
 import TravelApp from "../../img/travel-app-react-site.png";
 import MERN_Blog from "../../img/mern-stack-blog-website.png";
+import MERN_ToDoList from "../../img/mern-todolist-app.png";
 
 // import TravelApp from "../../videos/Travel App.mp4";
 import Auth_Secrets_with_Database from "../../videos/Auth_Secrets.mp4";
@@ -78,12 +79,13 @@ export const Portfolio = () => (
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-xs-12 mix NOT_Live">
-                    <div className="item text-center">
-                        <video width="500" controls>
-                            <source src={Auth_Secrets_with_Database} type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live MERN React">
+                    <div className="item">
+                        <img src={MERN_ToDoList} alt="image not found"></img>
+                        <div className="over text-center">
+                            <a href="https://salah-mern-todolist.herokuapp.com/" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/SalahAmer2/MERN-todo-list-app" target="_blank"><i className="far fa-eye"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
