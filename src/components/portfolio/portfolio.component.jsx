@@ -23,7 +23,7 @@ export const Portfolio = () => (
             <div className="list text-center">
                 <ul>
                     <li className="upper active" data-filter="all">ALL</li>
-                    <li className="filter" data-filter=".Live">Live</li>
+                    {/* <li className="filter" data-filter=".Live">Live</li> */}
                     {/* <li className="filter" data-filter=".NOT_Live">Not Live</li> */}
                     <li className="filter" data-filter=".React">React</li>
                     <li className="filter" data-filter=".Redux">Redux</li>
