@@ -79,7 +79,7 @@ export const Portfolio = () => (
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-xs-12 mix Live MERN React">
+                {/* <div className="col-lg-4 col-md-6 col-xs-12 mix Live MERN React">
                     <div className="item">
                         <img src={MERN_ToDoList} alt="image not found"></img>
                         <div className="over text-center">
@@ -87,7 +87,7 @@ export const Portfolio = () => (
                             <a href="https://github.com/SalahAmer2/MERN-todo-list-app" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     </div>
