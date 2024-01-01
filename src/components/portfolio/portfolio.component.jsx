@@ -6,6 +6,7 @@ import PrevResume from "../../img/previous-portfolio-website.png";
 import TravelApp from "../../img/travel-app-react-site.png";
 import MERN_Blog from "../../img/mern-stack-blog-website.png";
 import MERN_ToDoList from "../../img/mern-todolist-app.png";
+import NFTShow from "../../img/nftshow.png";
 
 // import TravelApp from "../../videos/Travel App.mp4";
 import Auth_Secrets_with_Database from "../../videos/Auth_Secrets.mp4";
