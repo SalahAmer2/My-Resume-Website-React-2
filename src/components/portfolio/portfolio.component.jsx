@@ -32,6 +32,15 @@ export const Portfolio = () => (
                 </ul>
             </div>
             <div className="row wow bounceInRight" data-wow-duration="1s" data-wow-offset="100">
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React">
+                    <div className="item">
+                        <img src={NFTShow} alt=""></img>
+                        <div className="over text-center">
+                            <a href="https://flat-nft.netlify.app/" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/SalahAmer2/Technautic" target="_blank"><i className="far fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Redux Firebase">
                     <div className="item">
                         <img src={CrwnClothing} alt=""></img>
