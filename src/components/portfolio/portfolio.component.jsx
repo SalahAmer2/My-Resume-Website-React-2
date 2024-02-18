@@ -8,6 +8,7 @@ import MERN_Blog from "../../img/mern-stack-blog-website.png";
 import MERN_ToDoList from "../../img/mern-todolist-app.png";
 import NFTShow from "../../img/nftshow.png";
 import PhoneStore from "../../img/phone store website.png";
+import BookFinder from "../../img/book-finder.png";
 
 // import TravelApp from "../../videos/Travel App.mp4";
 import Auth_Secrets_with_Database from "../../videos/Auth_Secrets.mp4";
@@ -40,6 +41,15 @@ export const Portfolio = () => (
                         <div className="over text-center">
                             <a href="https://react-phone-store-95.netlify.app/" target="_blank"><button>View Project</button></a>
                             <a href="https://github.com/SalahAmer2/react-phone-store" target="_blank"><i className="far fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React">
+                    <div className="item">
+                        <img src={BookFinder} alt=""></img>
+                        <div className="over text-center">
+                            <a href="https://react-books-finder.netlify.app/" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/SalahAmer2/react-book-finder" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
