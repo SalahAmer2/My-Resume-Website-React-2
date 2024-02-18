@@ -52,15 +52,6 @@ export const Portfolio = () => (
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Redux Firebase">
-                    <div className="item">
-                        <img src={CrwnClothing} alt=""></img>
-                        <div className="over text-center">
-                            <a href="https://salah-crwn-live.herokuapp.com/" target="_blank"><button>View Project</button></a>
-                            <a href="https://github.com/SalahAmer2/crwn-clothing" target="_blank"><i className="far fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
                 <div className="col-lg-4 col-md-6 col-xs-12 mix Live React">
                     <div className="item">
                         <img src={PrevResume} alt="image not found"></img>
@@ -70,23 +61,32 @@ export const Portfolio = () => (
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-md-6 col-xs-12 mix Live">
-                    <div className="item">
-                        <img src={BeActive} alt="image not found"></img>
-                        <div className="over text-center">
-                            <a href="https://quiet-lowlands-72158.herokuapp.com/" target="_blank"><button>View Project</button></a>
-                            <a href="https://github.com/SalahAmer2/Live-Website-Project" target="_blank"><i className="far fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="row wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
                 <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Redux">
                     <div className="item">
                         <img src={TravelApp} alt="image not found"></img>
                         <div className="over text-center">
                             <a href="https://salah-travel-app-react.netlify.app/" target="_blank"><button>View Project</button></a>
                             <a href="https://github.com/SalahAmer2/Travel-App-React" target="_blank"><i className="far fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Redux Firebase">
+                    <div className="item">
+                        <img src={CrwnClothing} alt=""></img>
+                        <div className="over text-center">
+                            <a href="https://salah-crwn-live.herokuapp.com/" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/SalahAmer2/crwn-clothing" target="_blank"><i className="far fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="row wow bounceInLeft" data-wow-duration="1s" data-wow-offset="100">
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live">
+                    <div className="item">
+                        <img src={BeActive} alt="image not found"></img>
+                        <div className="over text-center">
+                            <a href="https://quiet-lowlands-72158.herokuapp.com/" target="_blank"><button>View Project</button></a>
+                            <a href="https://github.com/SalahAmer2/Live-Website-Project" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
