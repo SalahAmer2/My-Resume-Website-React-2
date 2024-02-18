@@ -40,7 +40,7 @@ export const Portfolio = () => (
                         <img src={PhoneStore} alt=""></img>
                         <div className="over text-center">
                             <a href="https://react-phone-store-95.netlify.app/" target="_blank"><button>View Project</button></a>
-                            <a href="https://github.com/SalahAmer2/react-phone-store" target="_blank"><i className="far fa-eye"></i></a>
+                            <a href="" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ export const Portfolio = () => (
                         <img src={BookFinder} alt=""></img>
                         <div className="over text-center">
                             <a href="https://react-books-finder.netlify.app/" target="_blank"><button>View Project</button></a>
-                            <a href="https://github.com/SalahAmer2/react-book-finder" target="_blank"><i className="far fa-eye"></i></a>
+                            <a href="" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
