@@ -9,6 +9,7 @@ import MERN_ToDoList from "../../img/mern-todolist-app.png";
 import NFTShow from "../../img/nftshow.png";
 import PhoneStore from "../../img/phone store website.png";
 import BookFinder from "../../img/book-finder.png";
+import ITunesSearchAPISite from "../../img/itunes-search-api-site.png";
 
 // import TravelApp from "../../videos/Travel App.mp4";
 import Auth_Secrets_with_Database from "../../videos/Auth_Secrets.mp4";
@@ -31,6 +32,7 @@ export const Portfolio = () => (
                     <li className="filter" data-filter=".React">React</li>
                     <li className="filter" data-filter=".Redux">Redux</li>
                     <li className="filter" data-filter=".Firebase">Firebase</li>
+                    <li className="filter" data-filter=".Supabase">Supabase</li>
                     <li className="filter" data-filter=".MERN">MERN Stack</li>
                 </ul>
             </div>
@@ -77,6 +79,15 @@ export const Portfolio = () => (
                         <div className="over text-center">
                             <a href="https://salah-travel-app-react.netlify.app/" target="_blank"><button>View Project</button></a>
                             <a href="https://github.com/SalahAmer2/Travel-App-React" target="_blank"><i className="far fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-lg-4 col-md-6 col-xs-12 mix Live React Supabase">
+                    <div className="item">
+                        <img src={ITunesSearchAPISite} alt="image not found"></img>
+                        <div className="over text-center">
+                            <a href="https://itunes-search-api-site.netlify.app/" target="_blank"><button>View Project</button></a>
+                            <a href="" target="_blank"><i className="far fa-eye"></i></a>
                         </div>
                     </div>
                 </div>
