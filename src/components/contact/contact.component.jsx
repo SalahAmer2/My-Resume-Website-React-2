@@ -19,7 +19,7 @@ export const Contact = () => (
                             </svg>
                             <div className="cont">
                                 <h6>Phone</h6>
-                                <p>+201069651732</p>
+                                <p>+201090839647</p>
                             </div>
                         </div>
                     </div>
