@@ -22,8 +22,8 @@ export const About = () => (
                       <br /> That is what I commit to in all my projects.
                   </p>
                 <div className="social-icon">
-                    <a href="https://www.facebook.com/salah.ayman.9406/" target="_blank"><i className="fa fir fa-facebook"></i></a>
-                    <a href="https://wa.me/0201069651732" target="_blank"><i className="fab fou fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/salah.ayman.amer/" target="_blank"><i className="fa fir fa-facebook"></i></a>
+                    <a href="https://wa.me/0201090839647" target="_blank"><i className="fab fou fa-whatsapp"></i></a>
                 </div>
                 <button>CONTACT ME</button>
             </div>
